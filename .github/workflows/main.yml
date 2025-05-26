@@ -1,4 +1,4 @@
-name: CI/CD for React App
+name: ai-chat-bot
 
 
 # 1) Trigger this workflow on every push to "main"
