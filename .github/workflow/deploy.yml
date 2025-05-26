@@ -27,7 +27,7 @@ jobs:
 
 
                   # 4b) Which user on that server (Ubuntu AMIs use "ubuntu")
-                  username: ubuntu
+                  username: ${{ secrets.EC2_USERNAME }}
 
 
                   # 4c) SSH private key (stored as a secret, exported from PuTTYgen or OpenSSH)
